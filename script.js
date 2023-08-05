@@ -5,7 +5,6 @@ window.onscroll = () => {
         let top = window.scrollY;
         let offset = sec.offsetTop - 250;
         let height = sec.offsetHeight;
-        console.log(top, offset, height);
 
         if (top >= offset) {
             sec.classList.add('active');
