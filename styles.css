@@ -503,30 +503,6 @@ section .icon-contact {
 
 
 @media screen and (max-width: 900px) {
-    .sec4 .text-container {
-        transform: translateX(0);
-        opacity: 1;
-    }
-
-    .sec4 .con-skill {
-        transform: translateX(0);
-        opacity: 1;
-    }
-
-    .sec5 .text-container {
-        transform: translateX(0);
-        opacity: 1;
-    }
-
-    .sec6 .text-container {
-        transform: translateX(0);
-        opacity: 1;
-    }
-
-    .sec6 .icon-contact {
-        transform: translateX(0);
-        opacity: 1;
-    }
 
     .sec2 {
         height: auto;

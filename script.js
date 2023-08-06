@@ -1,16 +1,16 @@
 let sections = document.querySelectorAll('section');
 
 window.onscroll = () => {
+    const triger = (window.innerHeight / 5) * 3
     sections.forEach(sec => {
-        let top = window.scrollY;
-        let offset = sec.offsetTop - 250;
-        let height = sec.offsetHeight;
+        let topBox = sec.getBoundingClientRect().top;
 
-        if (top >= offset) {
+        if(topBox < triger){
             sec.classList.add('active');
-        } else if (top <= offset - 550) {
+        }else if (topBox >= triger+200){
             sec.classList.remove('active');
         }
+
     })
 
 }
